@@ -10,3 +10,42 @@
    ```bash
    git --version
    ```
+
+
+Вот как использовать `winget` для установки Git на Windows:
+
+### 1. Установка winget (если ещё не установлен)
+`winget` встроен в Windows 10 (версия 1709 и новее) и Windows 11.  
+Проверить наличие:  
+```powershell
+winget --version
+```
+
+Если команда не работает, обновите Windows или установите `winget` из [Microsoft Store](https://aka.ms/getwinget).
+
+### 2. Установка Git через winget
+Выполните в **PowerShell** или **CMD**:
+```powershell
+winget install --id Git.Git -e --source winget
+```
+Где:
+- `--id Git.Git` - идентификатор пакета
+- `-e` - точное совпадение имени
+- `--source winget` - источник установки
+
+### 3. Проверка установки
+```powershell
+git --version
+```
+
+### 4. Если нужна новейшая версия
+Как указано в сообщении, текущая версия через winget — 2.49.0. Для более новой:
+1. Скачайте исходники с [оф. сайта Git](https://git-scm.com/)
+2. Соберите их (требуются инструменты разработки)
+
+Или используйте другие методы установки:
+- Chocolatey: `choco install git`
+- Скачайте напрямую [installer для Windows](https://git-scm.com/download/win)
+
+### Дополнительно
+После установки Git через winget рекомендуется проверить, что пути добавлены в PATH (обычно это происходит автоматически).****
