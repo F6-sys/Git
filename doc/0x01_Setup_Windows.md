@@ -63,6 +63,6 @@
    - Chocolatey: `choco install git`
    - Скачайте напрямую [installer для Windows](https://git-scm.com/download/win)
 
-   ### Дополнительно
+   ### 5. Дополнительно
    
    После установки Git через winget рекомендуется проверить, что пути добавлены в PATH (обычно это происходит автоматически).
