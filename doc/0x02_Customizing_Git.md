@@ -3,8 +3,8 @@
 ### **Базовая конфигурация**  
 Перед началом работы необходимо задать имя и email, которые будут привязываться к вашим коммитам:  
 ```bash
-git config --global user.name "Ваше Имя или Никнейм"
-git config --global user.email "ваша_почта@example.com"
+git config --global user.name "Иван Петров"
+git config --global user.email "ivan@example.com"
 ```
 
 ### **Дополнительные настройки**  
@@ -41,7 +41,7 @@ core.editor=nano
 ### **Локальные настройки для проекта**  
 Если для отдельного репозитория нужны особые настройки (например, другой email), перейдите в его папку и выполните:  
 ```bash
-git config --local user.email "work_email@company.com"
+git config --local user.email "ivan@example.com"
 ```
 
 ---
