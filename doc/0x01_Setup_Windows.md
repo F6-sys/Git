@@ -15,7 +15,8 @@
 git --version
 ```
 
-### **Для Windows 10 (версия 1709 и новее) и Windows 11**
+
+### **Windows 10 (версия 1709 и новее) и Windows 11**
 
 Вот как использовать `winget` для установки Git на Windows:
 
